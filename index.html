@@ -148,7 +148,13 @@
                     <label id="additionalServices" for="clayBar">Clay Bar $35.00</label>
                     <input type="checkbox" id="additionalServices" name="leatherTreatment">
                     <label id="additionalServices" for="leatherTreatment">Leather Treatment $35.00</label>
-                    <input placeholder="enter desired date:" type="text" name="_replyto">
+                  
+                    <label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2021-01-01"
+       min="2021-03-01" max="2031-12-31">
+
                     <input placeholder="email:" type="email" name="_replyto">
                     <input type="submit" value="Book Now">
                   </form>
